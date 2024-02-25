@@ -1,0 +1,20 @@
+
+.background-image-formation {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('../src/assets/images/formation.jpg'); /* Remplacez 'chemin/vers/votre/image.jpg' par le chemin de votre image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 370px; /* Ajustez la hauteur en fonction de vos besoins */
+    position: relative;
+  }
+  .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Comic Sans MS', cursive;
+    transform: translate(-50%, -50%);
+    color: white; /* Couleur du texte */
+    text-align: center;
+  }
+  .slider-title-interne {
+    color: rgba(252,185,0,1)
+  }

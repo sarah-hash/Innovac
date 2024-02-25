@@ -1,0 +1,21 @@
+
+.background-image-coching {
+   background:url(../src/assets/images/img1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 350px; /* Ajustez la hauteur en fonction de vos besoins */
+    position: relative;
+  }
+  .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-family: 'Comic Sans MS', cursive;
+    transform: translate(-50%, -50%);
+    color: white; /* Couleur du texte */
+    text-align: center;
+  }
+  .slider-title-interne {
+    color: rgba(252,185,0,1)
+  }

@@ -1,0 +1,33 @@
+
+
+.leftContent {
+  margin-left: 50px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+.rightContent {
+  margin-left: 50px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+
+
+.contactButton {
+  background-color: #FF4433; /* Orange background color */
+  color: #fff; /* Text color */
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  border-color: #221133;
+  cursor: pointer;
+}
+
+/* Exemple de styles amusants pour le texte */
+.funnyText {
+  font-family: 'Comic Sans MS', cursive;
+  color: #221133;
+  text-align: center;
+  font-size: 30px;
+  line-height: 1.2em;
+}
