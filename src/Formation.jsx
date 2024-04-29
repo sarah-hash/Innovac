@@ -3,9 +3,8 @@ import Navbar from './Navbar';
 import FormationHeader from './FormationHeader';
 import PreFooter from './PreFooter';
 import Footer from './Footer';
-import './Formation.css';
 import FormationFooter from './FormationFooter';
-
+import './Formation.css';
 function Formation() {
   return (
     <div>
@@ -16,7 +15,7 @@ function Formation() {
         <div className='row'>
           <ol className="style_1">
             <li>
-              Innova-personnalité
+              1- Innova-personnalité
               <ol>
                 <li>Atelier : Le Pouvoir du Changement en Gestion du Changement .</li>
                 <li>Atelier : Intelligence Émotionnelle et Gestion des Émotions</li>
@@ -24,7 +23,7 @@ function Formation() {
               </ol>
             </li>
             <li>
-              Méga Formation
+              2- Méga Formation
               <ol>
                 <li>Neuroéducation</li>
                 <li>Discipline Positive</li>

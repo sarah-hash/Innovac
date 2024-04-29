@@ -6,6 +6,10 @@ import img1 from './assets/images/events/img1.jpg'
 import img2 from './assets/images/events/img2.jpg'
 import img4 from './assets/images/events/img4.jpg'
 import img5 from './assets/images/events/img5.jpg'
+import img8 from './assets/images/events/img8.jpg'
+import img9 from './assets/images/events/img9.jpg'
+
+
 import EventHeader from './EventHeader';
 
 function Events() {
@@ -45,31 +49,13 @@ function Events() {
           <span className="date">August 12, 2021</span>
         </div>
       </div> <div className="card">
-      <img src='https://images.unsplash.com/photo-1586442886903-1cb792cd1dc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyODc3NzA3NQ&ixlib=rb-1.2.1&q=80&w=400' alt="desert" />
+      <img src={img8} alt="desert" />
         <div className="infos">
           <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, cupiditate?</p>
           <span className="date">August 12, 2021</span>
         </div>
       </div> <div className="card">
-      <img src='https://images.unsplash.com/photo-1586442886903-1cb792cd1dc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyODc3NzA3NQ&ixlib=rb-1.2.1&q=80&w=400' alt="desert" />
-        <div className="infos">
-          <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, cupiditate?</p>
-          <span className="date">August 12, 2021</span>
-        </div>
-      </div> <div className="card">
-      <img src='https://images.unsplash.com/photo-1586442886903-1cb792cd1dc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyODc3NzA3NQ&ixlib=rb-1.2.1&q=80&w=400' alt="desert" />
-        <div className="infos">
-          <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, cupiditate?</p>
-          <span className="date">August 12, 2021</span>
-        </div>
-      </div> <div className="card">
-      <img src='https://images.unsplash.com/photo-1586442886903-1cb792cd1dc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyODc3NzA3NQ&ixlib=rb-1.2.1&q=80&w=400' alt="desert" />
-        <div className="infos">
-          <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, cupiditate?</p>
-          <span className="date">August 12, 2021</span>
-        </div>
-      </div> <div className="card">
-      <img src='https://images.unsplash.com/photo-1586442886903-1cb792cd1dc4?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDU4OXwwfDF8cmFuZG9tfHx8fHx8fHx8MTYyODc3NzA3NQ&ixlib=rb-1.2.1&q=80&w=400' alt="desert" />
+      <img src={img9} alt="desert" />
         <div className="infos">
           <p className="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, cupiditate?</p>
           <span className="date">August 12, 2021</span>

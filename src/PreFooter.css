@@ -18,6 +18,7 @@
   color: #fff; /* Text color */
   padding: 10px 20px;
   border: none;
+  margin-top: 20px;
   border-radius: 5px;
   border-color: #221133;
   cursor: pointer;
@@ -27,7 +28,9 @@
 .funnyText {
   font-family: 'Comic Sans MS', cursive;
   color: #221133;
+  text-transform: uppercase;
   text-align: center;
-  font-size: 30px;
+  margin-top: 20px;
+  font-size: 25px;
   line-height: 1.2em;
 }

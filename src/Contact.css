@@ -1,0 +1,48 @@
+/* Contact.css */
+
+/* Style général */
+
+  
+
+  
+  /* Style de la section de contact */
+  .contact-1 {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+  
+  .contact-1 h1 {
+    color: orange;
+    font-size: 30px;
+    font-family: 'Comic Sans MS', cursive;
+  }
+  
+  .contact-form {
+    margin-top: 20px;
+  }
+  
+  /* Style des champs de formulaire */
+  .input {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    font-family: 'Comic Sans MS', cursive;
+    border-radius: 5px;
+    width: 80%;
+  }
+  
+  button {
+    padding: 10px 15px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    background-color: orange;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  button:hover {
+    background-color: pink;
+    color: #fff;
+  }

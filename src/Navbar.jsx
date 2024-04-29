@@ -1,11 +1,10 @@
 import React, {useState} from 'react'
 import logo from './assets/images/logo.jpg';
-import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'; 
 import 'bootstrap/dist/js/bootstrap.bundle.min';
-function Navbar() {
-  const [ setShowCoaching] = useState(false);
+import { Link } from 'react-router-dom';
 
+function Navbar() {
 
   return (
       <nav className="navbar navbar-expand-lg bg-white shadow py-3 sticky-top">
@@ -25,11 +24,11 @@ function Navbar() {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-links">
-        <li class="nav-item">
+          <ul className="navbar-links">
+        <li className="nav-item">
           <a href="/" className="nav-link">Acceuil</a>
         </li>
-        <li class="navbar-dropdown">
+        <li className="navbar-dropdown">
           <a href="#about" >A propos</a>
         </li>
         <li className="nav-item dropdown">
@@ -56,12 +55,12 @@ function Navbar() {
     </Link>
   </div>
 </li>
-        <li class="navbar-dropdown">
+        <li className="navbar-dropdown">
           <Link to="/evenements">Conférences et évenements</Link>
          
         </li>
-        <li class="navbar-dropdown">
-          <Link href="/contact">Contact</Link>
+        <li className="navbar-dropdown">
+          <Link to="/contact">Contact</Link>
         </li>
       </ul>
           </div>
